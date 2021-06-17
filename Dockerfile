@@ -4,6 +4,6 @@ EXPOSE 25565
 
 WORKDIR /app
 
-COPY /server .
+COPY . .
 
 ENTRYPOINT ["/bin/bash", "start.sh"]
