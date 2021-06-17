@@ -5,19 +5,4 @@ services:
     ports:
       - 25565:25565
     volumes:
-      - ./banned-ips.json:/app/
-      - ./banned-players.json:/app/banned-players.json
-      - ./bukkit.yml:/app/bukkit.yml
-      - ./commands.yml:/app/commands.yml
-      - ./help.yml:/app/help.yml
-      - ./logs:/app/logs
-      - ./ops.json:/app/ops.json
-      - ./permissions.yml:/app/permissions.yml
-      - ./plugins:/app/plugins
-      - ./server.properties:/app/server.properties
-      - ./spigot.yml:/app/spigot.yml
-      - ./usercache.json:/app/usercache.json
-      - ./whitelist.json:/app/whitelist.json
-      - ./world:/app/world
-      - ./world_nether:/app/world_nether
-      - ./world_the_end:/app/world_the_end
+      - ./:/app
