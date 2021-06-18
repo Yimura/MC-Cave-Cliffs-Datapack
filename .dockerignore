@@ -11,6 +11,7 @@ ops.json
 permissions.yml
 plugins/
 server.properties
+spigot-1.17.jar
 spigot.yml
 usercache.json
 whitelist.json
