@@ -1,14 +1,19 @@
+.fabric/
+.mixin.out/
 banned-ips.json
 banned-players.json
 bukkit.yml
 commands.yml
+config/
 help.yml
 logs/
+fabric-server-launch.jar
+fabric-server-launcher.properties
 ops.json
 permissions.yml
-plugins/
+mods/
 server.properties
-spigot-1.17.jar
+server.jar
 spigot.yml
 usercache.json
 whitelist.json
@@ -16,5 +21,3 @@ world/*
 !world/datapacks/
 world/datapacks/*
 !world/datapacks/CavesAndCliffsPreview.zip
-world_nether/
-world_the_end/

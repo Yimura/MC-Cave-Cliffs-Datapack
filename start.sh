@@ -1,6 +1,7 @@
-FILE=spigot-1.17.jar
+FILE=server.jar
 if [ ! -f "$FILE" ]; then
-    echo "$FILE server jar does not exist in container root directory, moving..."
+    echo "Server jar does not exist in container root directory, moving..."
     mv /$FILE ./
+    mv /fabric-server-launch.jar ./
 fi
-java -Xmx6G -Xms6G -jar spigot-1.17.jar nogui
+java -Xmx6G -Xms6G -jar fabric-server-launch.jar
