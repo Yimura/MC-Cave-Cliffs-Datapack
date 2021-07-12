@@ -8,6 +8,7 @@ banned-players.json
 bukkit.yml
 commands.yml
 config/
+crash-reports/
 help.yml
 logs/
 fabric-server-launch.jar
